@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+/* Custom Fonts */
+.font-cowboy {
+  font-family: 'Old Standard TT', serif;
+}
+
+/* Utility Classes */
+.cowboy-text {
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.cowboy-btn {
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cowboy-spin {
+  animation: cowboy-spin 6s linear infinite;
+}
+
+.cowboy-spin-reverse {
+  animation: cowboy-spin-reverse 6s linear infinite;
+}
+
+/* Cowboy Background Pattern (if using CSS) */
+.cowboy-pattern {
+  background-image: url('https://res.cloudinary.com/dlgz2t08o/image/upload/v1736841277/cowboy-pattern.svg');
+  background-size: cover;
+}
+
+.animate-float-slow {
+  animation: floatSlow 5s infinite ease-in-out;
+}
+
+.animate-float-fast {
+  animation: floatFast 3s infinite ease-in-out;
+}
+
+/* Animations */
+@keyframes cowboy-spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes cowboy-spin-reverse {
+  0% {
+    transform: rotate(360deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade-in up animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glow pulse animation */
+@keyframes glowPulse {
+  0%,
+  100% {
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff9900, 0 0 30px #ff6600;
+  }
+  50% {
+    text-shadow: 0 0 20px #ffcc00, 0 0 40px #ff9900, 0 0 60px #ff6600;
+  }
+}
+
+/* Button hover bounce */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Floating icons */
+@keyframes floatSlow {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes floatFast {
+  0%,
+  100% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Floating animation for the cowboy hat */
+@keyframes floatSlow {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+/* Dropdown fade-in */
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
