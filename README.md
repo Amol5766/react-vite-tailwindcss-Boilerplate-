@@ -1,9 +1,9 @@
 <h2 align="center">
   <p align="center" style="font-size: 1.2em;"><br/>
-    <a href="https://yourlink.com" target="_blank">React+Vite+TailwindCSS Boilerplate</a>
+    <a href="https://react-vite-tailwindcss-boilerplate--two.vercel.app/" target="_blank">React+Vite+TailwindCSS Boilerplate</a>
   </h2>
 <div align="center">
-  <img alt="Demo" src="public/meta.jpg" />
+  <img alt="Demo" src="https://res.cloudinary.com/dlgz2t08o/image/upload/v1736938063/wild_west_k4ssg3.png" />
 </div>
 
 <h1 align="center" style="font-size: 3em;">React Vite TailwindCSS Boilerplate ⚡</h1>
