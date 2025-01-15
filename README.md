@@ -1,6 +1,6 @@
 <h2 align="center">
   <p align="center" style="font-size: 1.2em;"><br/>
-    <a href="https://yourlink.com" target="_blank">React Vite TailwindCSS Boilerplate</a>
+    <a href="https://yourlink.com" target="_blank">React+Vite+TailwindCSS Boilerplate</a>
   </h2>
 <div align="center">
   <img alt="Demo" src="public/meta.jpg" />
